@@ -42,7 +42,7 @@ export default function ProjectsShowcase() {
   }, { scope: containerRef });
 
   return (
-    <section id="projects" className="w-full scroll-mt-24 py-24 text-white">
+    <section id="projects" className="w-full scroll-mt-10 md:scroll-mt-24 py-24 text-white">
       <TitleComponent
         title="OUR PROJECT"
         className="text-center  text-5xl md:text-6xl text-amber-300 tracking-widest font-light mb-16"

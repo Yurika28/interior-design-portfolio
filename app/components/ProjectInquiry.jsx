@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ProjectInquiry() {
   return (
-    <section id="contact" className="relative w-full scroll-mt-24 text-white pb-10">
+    <section id="contact" className="relative w-full scroll-mt-10 md:scroll-mt-24 text-white pb-10">
       {/* === Background Image === */}
       <div className="relative w-full h-[520px] overflow-hidden rounded-b-[50px]">
         <Image

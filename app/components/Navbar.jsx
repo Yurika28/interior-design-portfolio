@@ -41,6 +41,7 @@ export default function Navbar() {
         <div
           className="
             hidden md:flex gap-6 p-3 rounded-full
+            text-gray-300
             backdrop-blur-xl bg-white/10 
             border border-white/20
             shadow-[0_8px_32px_rgba(0,0,0,0.25)]
@@ -49,21 +50,21 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => scrollToSection("#about")}
-            className="hover:text-white transition-colors cursor-pointer"
+            className="transition-colors cursor-pointer"
           >
             About
           </button>
           <button
             type="button"
             onClick={() => scrollToSection("#projects")}
-            className="hover:text-white transition-colors cursor-pointer"
+            className="transition-colors cursor-pointer"
           >
             Projects
           </button>
           <button
             type="button"
             onClick={() => scrollToSection("#contact")}
-            className="hover:text-white transition-colors cursor-pointer"
+            className="transition-colors cursor-pointer"
           >
             Contact
           </button>
@@ -87,6 +88,7 @@ export default function Navbar() {
         <div
           className="
             mt-3 md:hidden flex flex-col gap-4 p-4 rounded-2xl
+            text-gray-300
             backdrop-blur-xl bg-white/10
             border border-white/20
             shadow-[0_8px_32px_rgba(0,0,0,0.25)]
@@ -95,21 +97,21 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => handleNavClick("#about")}
-            className="text-left hover:text-white transition-colors cursor-pointer"
+            className="text-left transition-colors cursor-pointer"
           >
             About
           </button>
           <button
             type="button"
             onClick={() => handleNavClick("#projects")}
-            className="text-left hover:text-white transition-colors cursor-pointer"
+            className="text-left transition-colors cursor-pointer"
           >
             Projects
           </button>
           <button
             type="button"
             onClick={() => handleNavClick("#contact")}
-            className="text-left hover:text-white transition-colors cursor-pointer"
+            className="text-left transition-colors cursor-pointer"
           >
             Contact
           </button>

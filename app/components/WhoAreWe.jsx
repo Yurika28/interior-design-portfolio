@@ -71,7 +71,7 @@ export default function WhoWeAreSection() {
   return (
     <section
       id="about"
-      className="relative w-full scroll-mt-24 bg-[url('/marble-bg.jpg')] bg-cover bg-center py-24 overflow-hidden"
+      className="relative w-full scroll-mt-10 md:scroll-mt-15 bg-[url('/marble-bg.jpg')] bg-cover bg-center py-6 overflow-hidden"
     >
       {/* -----------------------------
           Image grid

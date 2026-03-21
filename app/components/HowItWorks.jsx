@@ -78,7 +78,7 @@ export default function HowItWorks() {
           x={100} 
           duration={1.5} 
           stagger={0.2} 
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 relative"
+          className="grid grid-cols-2 md:grid-cols-4 gap-8 relative"
         >
         
           {steps.map(({ id, icon: Icon, title, desc }) => (
@@ -88,8 +88,8 @@ export default function HowItWorks() {
                 relative
                 rounded-t-[60px] rounded-b-3xl 
                 -z-10
-                p-4 md:p-6 pt-8 md:pt-15
-                bg-linear-to-b from-white/10 via-white/5 to-white/3 backdrop-blur-md border border-white/20
+                p-3 md:p-6 pt-4 md:pt-8
+                bg-linear-to-b from-white/18 via-white/5 to-white/3 backdrop-blur-xl border border-white/20
                 
                 shadow-[0_8px_45px_rgba(0,0,0,0.45)]
                 
