@@ -1,0 +1,11 @@
+Model Information:
+* title:	HDRI - SKY BOX 8K - MODERN LIVING ROOM VIEW
+* source:	https://sketchfab.com/3d-models/hdri-sky-box-8k-modern-living-room-view-45dbb9a2ec4b41f08d8953a381f5bda8
+* author:	Architecture_Interior (https://sketchfab.com/architecture_interior)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "HDRI - SKY BOX 8K - MODERN LIVING ROOM VIEW" (https://sketchfab.com/3d-models/hdri-sky-box-8k-modern-living-room-view-45dbb9a2ec4b41f08d8953a381f5bda8) by Architecture_Interior (https://sketchfab.com/architecture_interior) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
