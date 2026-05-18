@@ -62,6 +62,7 @@ export default function ProjectsShowcase() {
               src={project.img}
               alt={project.title}
               fill
+              sizes="(max-width: 768px) 100vw, 20vw"
               className="object-cover"
               priority={project.id <= 2}
             /> 
@@ -77,7 +78,7 @@ export default function ProjectsShowcase() {
               
               <button
                 type="button"
-                className="project-more-button bg-amber-300 p-2 mt-2 text-white text-sm rounded-full opacity-0"
+                className="project-more-button cursor-pointer bg-amber-300 p-2 mt-2 text-white text-sm rounded-full opacity-0"
                 onClick={() => router.push(`/projects/${toProjectSlug(project.title)}`)}
               >
                 View More

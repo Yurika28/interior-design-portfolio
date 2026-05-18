@@ -11,6 +11,7 @@ export default function ProjectInquiry() {
           src="/elegant-modern-living-room-with-gray-sofa.jpg" 
           alt="Reception background"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />

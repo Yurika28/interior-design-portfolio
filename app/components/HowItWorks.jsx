@@ -45,6 +45,7 @@ export default function HowItWorks() {
           src="/elegant-modern-living-room-with-gray-sofa.jpg"
           alt="background"
           fill
+          sizes="100vw"
           className="object-cover"
         />
       </div>

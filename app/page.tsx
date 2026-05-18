@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import WhoWeAre from "./components/WhoAreWe";
 import Services from "./components/Services"
 import HowItWorks from "./components/HowItWorks"
+import ShopSection from "@/components/shop/ShopSection";
 import OurProjects from "./components/OurProjects"
 import ProjectInquiry from "./components/ProjectInquiry"
 
@@ -16,9 +17,10 @@ export default function HomePage() {
         <HeroSection/>
       </header>
       <section>
+        <OurProjects/>
+        <ShopSection/>
         <WhoWeAre />
         <HowItWorks/>
-        <OurProjects/>
         <Services/>
       </section>
       <footer>

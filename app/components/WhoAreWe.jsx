@@ -109,6 +109,7 @@ export default function WhoWeAreSection() {
                 src={item.image}
                 alt={item.mdLabel}
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover transition-transform duration-500 hover:scale-105"
               />
             </div>

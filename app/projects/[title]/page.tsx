@@ -31,8 +31,8 @@ export default async function ProjectPage({ params }: { params: Promise<{ title:
           {project.title}
         </h1>
 
-        <div className="mt-10 relative h-[320px] sm:h-[420px] md:h-[520px] rounded-3xl overflow-hidden shadow-[0_20px_80px_rgba(0,0,0,0.35)]">
-          <Image src={project.img} alt={project.title} fill className="object-contain" priority />
+        <div className="mt-10 relative h-80 sm:h-[420px] md:h-[520px] rounded-3xl overflow-hidden shadow-[0_20px_80px_rgba(0,0,0,0.35)]">
+          <Image src={project.img} alt={project.title} fill sizes="(max-width: 1280px) 100vw, 1280px" className="object-contain" priority />
         </div>
 
         <p className="mt-8 max-w-2xl text-neutral-300 leading-relaxed text-base sm:text-lg ">
